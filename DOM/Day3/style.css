@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+     padding: 10px 10px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#main{
+    height: 60%;
+    width: 80%;
+    padding: 10px 10px;
+    background-color: rgb(167, 164, 164);
+    display: flex;
+    gap : 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.box{
+    height: 30%;
+    width: 40%;
+    border-radius: 10px;
+    
+}
+
+.box1{
+   
+    background-color: darkred;
+
+   
+   
+
+}
+
+.box2{
+   
+    background-color: darkgoldenrod;
+    
+    
+}
+.box3{
+   
+    background-color: darkblue;
+    
+}
+h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
