@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TMS</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <section class="nav-left">
+                <h1>Task Management System</h1>
+            </section>
+
+            <section class="nav-right">
+                <button class="mode">Change Themes</button>
+            </section>
+
+        </nav>
+
+        
+        <section id="main-section">
+            <div class="main-section-parts">
+                
+                <section class="main-section-parts-form">
+                    <form action="" class="form">
+                        <textarea required class="task-text-area" type="text" placeholder="Enter Task..." name="taskName"></textarea>
+                        <select  class="category" required name="category">
+                            <option value="">Category</option>
+                            <option value="Office">Office</option>
+                            <option value="Home">Home</option>
+                            <option value="Misc">Misc</option>
+                        </select>
+                        <button class="form-btn" type="submit">Add Task +</button>
+                    </form>
+                </section>
+
+
+
+                <section class="main-section-parts-list">  
+                </section>
+            </div>
+        </section>
+        
+
+    </main>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

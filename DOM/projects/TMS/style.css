@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    pad: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(110, 125, 138);
+}
+
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(123, 63, 63);
+    color: rgb(243, 226, 226);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.nav-left{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(88, 88, 93);
+    border: 1px solid black;
+}
+.nav-left h1{
+     color:rgb(150, 151, 145);
+     font-size: 22px;
+}
+
+.nav-right{
+    height: 100%;
+    width: 80%;
+    background-color: rgb(150, 151, 145);
+    display: flex;
+    justify-content: end;
+    
+  
+}
+.mode {
+     color:rgb(150, 151, 145);
+     background-color:rgb(88, 88, 93);   
+}
+
+
+#main-section{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(48, 92, 76);
+    display: flex;
+
+}
+
+.main-section-parts{
+    height: 100%;
+    width: 100%;
+    display: flex;
+   
+   
+}
+.main-section-parts-form{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(150, 151, 145);
+    
+    
+}
+h3{
+    font-size: 20px;
+    color:  rgb(88, 88, 93);
+}
+
+.form {
+    width: 100%;
+    display: flex; 
+    padding: 15px 20px;
+    border-radius: 0px;
+    flex-direction: column;
+    
+}
+.form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: vertical; /* user can expand */
+    background-color: rgb(189, 212, 200);
+    
+}
+.form select{
+    width:100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+     background-color: rgb(189, 212, 200);
+    cursor: pointer;
+}
+.form button{
+    padding: 10px 18px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(88, 88, 93);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.main-section-parts-list{
+   max-height: 100%;
+    width: 80%;
+    background-color: rgb(88, 88, 93);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px; 
+    justify-content: start;
+    align-content: start;
+    overflow-y: auto;    /* enable vertical scroll */
+    border: 1px solid black;
+}
+.card{
+    height: 35%;
+    width: 20%;
+    padding: 10px 10px;
+    background-color: rgb(189, 212, 200);
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.card-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top h4{
+    color: rgb(82, 105, 99);
+}
+
+.center{
+    
+}
+
+.center p{
+   font-size: 10px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit{
+  background: #dde5a0;
+  color: black;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+
+}
+.del{
+  background: #eda477;
+  color: black;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.complete{
+   background: #96b997;
+  color: black;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+
+}
+
+
+
+
