@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: #f4f7f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.hidden{
+    display: none;
+}
+
+
+
+
+
+
+
+
+#auth  {
+    width: 50%;
+    height: 60%;
+    max-width: 350px;
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px
+}
+#register  {
+    width: 50%;
+    height: 60%;
+    max-width: 350px;
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px
+}
+
+.form {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+.fg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    
+}
+
+#loginBtn {
+    width: 100%;
+    padding: 10px;
+    background: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#registerBtn {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+}
